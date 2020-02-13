@@ -129,7 +129,9 @@ header {
 
 /*////////// LOGO //////////*/
 
-
+#logo {
+  padding: 100px 5px 5px;
+}
 
 #logo h1 {
   font-family: 'Clicker Script', cursive;
