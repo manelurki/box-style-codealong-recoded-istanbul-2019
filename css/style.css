@@ -32,7 +32,10 @@ figcaption {
 
 /*////////// BACKGROUNDS //////////*/
 
-
+.white-wood {
+  background: url(../images/white-wood.jpg) no-repeat center top;
+  background-size: cover;
+}
 
 /*/////// MEDIA ////////*/
 
@@ -112,15 +115,23 @@ img, video, audio, iframe, table, form {
 
 /*////////// HEADER //////////*/
 
-
+header {
+  margin: 2 2 20px;
+}
 
 /*////////// NAVBAR //////////*/
 
-
+#navbar {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
 
 /*////////// LOGO //////////*/
 
-
+#logo {
+  padding: 100px 5px 5px;
+}
 
 #logo h1 {
   font-family: 'Clicker Script', cursive;
